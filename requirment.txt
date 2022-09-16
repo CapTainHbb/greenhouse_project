@@ -1,0 +1,5 @@
+numpy
+rpi.gpio
+Adafruit_GPIO
+Adafruit_MCP3008
+matplotlib
