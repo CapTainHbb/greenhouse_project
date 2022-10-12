@@ -10,15 +10,15 @@ compenents of this greenhouse:
    * raspberry pi camera -> to capture images for processing
 
 2) acutators:
-  * valve
-  * fan
-  * heater
-  * humidifier
+   * valve
+   * fan
+   * heater
+   * humidifier
 
 3) modules:
-  * computer vision module: this module uses images capatured by rapberry pi camera to determine
+   * computer vision module: this module uses images capatured by rapberry pi camera to determine
     grow stage of plant. to determine grow stage of plant, the YOLOV5 algorithm is used.
   
-  * main module: this module gathers data from sensors and takes action through actuators based on grow stage of plant
+   * main module: this module gathers data from sensors and takes action through actuators based on grow stage of plant
   
-  * ui : this module show statistical information to user by matplotlib
+   * ui : this module show statistical information to user by matplotlib
